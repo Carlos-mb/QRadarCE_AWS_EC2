@@ -1,7 +1,3 @@
-During the process, you'll need to texts to copy and paste. They are these:
-
-FOR THE POLICY:
-
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -33,26 +29,6 @@ FOR THE POLICY:
                 "ec2:Describe*"
             ],
             "Resource": "*"
-        }
-    ]
-}
-
-FOR THE ROLE TRUST RELATIONSHIPS
-
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Effect": "Allow",
-            "Principal": {
-                "Service": "vmie.amazonaws.com"
-            },
-            "Action": "sts:AssumeRole",
-            "Condition": {
-                "StringEquals": {
-                    "sts:Externalid": "vmimport"
-                }
-            }
         }
     ]
 }
