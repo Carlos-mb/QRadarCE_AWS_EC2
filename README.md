@@ -9,4 +9,6 @@ I tried to install the QRadar Community Edition OVA in Amazon and I had to overc
 
 In this video I summarize the entire process, hoping will be useful for those who are in the same situation and need to practice with QRadar. 
 
+https://youtu.be/4feMzmULtwU
+
 Ah... I passed the exam in my first attempt 
